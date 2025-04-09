@@ -1,0 +1,27 @@
+<!-- https://github.com/squidfunk/mkdocs-material/discussions/6185 -->
+{% extends "base.html" %}
+{% block htmltitle %}
+    <title>Triage</title>
+{% endblock %}
+
+{% block content %}
+	<!-- https://stackoverflow.com/questions/5559578/having-links-relative-to-root -->
+	<div id="triage_img_wrapper">
+		<img src="/test_gpjs_mkdocs/assets/bg.png" alt="bg" id="bg" class="imgBg">
+		<a href="/test_gpjs_mkdocs/triage/red">
+			<img src="/test_gpjs_mkdocs/assets/red.png" alt="red" id="red" class="imgBg">
+		</a>
+		<a href="/test_gpjs_mkdocs/triage/orange">
+			<img src="/test_gpjs_mkdocs/assets/orange.png" alt="orange" id="orange" class="imgBg">
+		</a>
+		<a href="/test_gpjs_mkdocs/triage/yellow">
+			<img src="/test_gpjs_mkdocs/assets/yellow.png" alt="yellow" id="yellow" class="imgBg">
+		</a>
+	</div>
+    {{ page.content }}
+    <br />
+    <br />
+    <br />
+{% endblock %}
+
+

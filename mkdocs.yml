@@ -8,7 +8,7 @@ edit_uri: 'https://github.com/stefnestor/test_gpjs_mkdocs/edit/main/docs'
 
 theme:
   favicon: "assets/elastic.png"
-  logo: " "
+  logo: "assets/elastic.png"
   name: material
   custom_dir: overrides
   palette:
@@ -17,10 +17,15 @@ theme:
       primary: blue
       accent: blue
   features:
+    # - navigation.features
     - navigation.instant # auto reload without refresh during dev
+    # - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.indexes
+    # - navigation.top
+    # - toc.integrate
+    - navigation.indexes # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages 
+    # - navigation.footer
   search_index_only: false
   include_search_page: false
   font:
@@ -30,11 +35,17 @@ theme:
 plugins: []
 
 markdown_extensions:
+  # https://squidfunk.github.io/mkdocs-material/reference/admonitions/?h=admoni
   - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
   - abbr
   - attr_list
   - def_list
+  # - footnotes
   - meta
+  # - md_in_html
   - toc:
       permalink: true
 
@@ -43,7 +54,7 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/admonitions.css
+  # - stylesheets/admonitions.css
 
 extra_javascript:
   - stylesheets/extra.js

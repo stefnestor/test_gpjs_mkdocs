@@ -2,18 +2,19 @@
 hide:
   - navigation
   - toc
-template: home.html
+template: triage.html
 ---
 
-<div id="mainA">
-  <div id="img_wrapper">
-    <img src="../assets/bg.png" alt="bg" id="bg" class="imgBg">
-    <a href="#pink" onclick=" document.getElementById('page_content').innerHTML = ' <object type=\'text/html\' data=\'pages/pink.html\' ></object>' " ><img src="../assets/pink.png" alt="pink" id="pink" class="imgBg"></a>
-    <a href="#orange" onclick="document.getElementById('page_content').innerHTML = 'orange'"><img src="../assets/orange.png" alt="orange" id="orange" class="imgBg"></a>
-    <a href="#yellow" onclick="document.getElementById('page_content').innerHTML = 'yellow'"><img src="../assets/yellow.png" alt="yellow" id="yellow" class="imgBg"></a>
-    <a href="#arrow_l" onclick="document.getElementById('page_content').innerHTML = 'arrow_l'"><img src="../assets/arrow_l.png" alt="arrow_l" id="arrow_l" class="imgBg"></a>
-    <a href="#arrow_r" onclick="document.getElementById('page_content').innerHTML = 'arrow_r'"><img src="../assets/arrow_r.png" alt="arrow_r" id="arrow_r" class="imgBg"></a>
-  </div>
+- WIP columns based on [USE Method](https://medium.com/@stefnestor/use-method-for-elasticsearch-d976802d8ba6)
+    - images
+        - ![](/test_gpjs_mkdocs/assets/use_method.png)
+        - ![](/test_gpjs_mkdocs/assets/triage_idea.png)
+    - columns
+        1. ([red](./red.md)) errors (health)
+        2. ([orange](./orange.md)) resource utilization (CAT nodes+allocation) 
+        3. ([yellow](./yellow.md)) saturation (tasks+threadpool)
+        4. ([green](./green.md)) answer
+- 🚧 
+    - So I made my clickable graphic with 3 columns and now need 4 to include "green" 😂 so kindly imagine it there & click just before
+    - Also column "green" isn't "needed" for triaging but how many of our peers do you know will rest until we give them the answer to the puzzle 😄. 
 
-  <div id="page_content"></div>
-</div>
