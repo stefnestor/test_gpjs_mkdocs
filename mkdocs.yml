@@ -1,0 +1,51 @@
+site_name: ""
+docs_dir: docs/
+
+repo_name: 'stefnestor/test_gpjs_mkdocs'
+repo_url: 'https://github.com/stefnestor/test_gpjs_mkdocs/docs'
+site_url: 'https://stefnestor.github.io/test_gpjs_mkdocs'
+edit_uri: 'https://github.com/stefnestor/test_gpjs_mkdocs/edit/main/docs'
+
+theme:
+  favicon: "assets/elastic.png"
+  logo: " "
+  name: material
+  custom_dir: overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+  features:
+    - navigation.instant # auto reload without refresh during dev
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+  search_index_only: false
+  include_search_page: false
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins: []
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - meta
+  - toc:
+      permalink: true
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/admonitions.css
+
+extra_javascript:
+  - stylesheets/extra.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

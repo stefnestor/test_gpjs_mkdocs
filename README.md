@@ -1,2 +1,7 @@
-# test_gpjs_mkdocs
-test_gpjs_mkdocs
+# mkdocs+gpjs
+
+test combine 
+- https://github.com/stefnestor/demo_mkdocs
+- https://github.com/stefnestor/test_gpjs
+
+https://squidfunk.github.io/mkdocs-material/publishing-your-site/?h=github#with-github-actions
