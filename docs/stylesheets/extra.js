@@ -11,6 +11,6 @@ if(window.location.hash){
 if(hash == '#pink'){
 	document.getElementById('page_content').innerHTML = ' <object type=\'text/html\' data=\'pages/'+hash.substring(1)+'.html\' ></object>';
 }
-else {
+elif {
 	document.getElementById('page_content').innerHTML = 'build-out TODO on initial page load';
 }
