@@ -17,15 +17,10 @@ theme:
       primary: blue
       accent: blue
   features:
-    # - navigation.features
     - navigation.instant # auto reload without refresh during dev
-    # - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
-    # - navigation.top
-    # - toc.integrate
     - navigation.indexes # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages 
-    # - navigation.footer
   search_index_only: false
   include_search_page: false
   font:
@@ -43,7 +38,6 @@ markdown_extensions:
   - abbr
   - attr_list
   - def_list
-  # - footnotes
   - meta
   # - md_in_html
   - toc:
@@ -54,7 +48,6 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
-  # - stylesheets/admonitions.css
 
 extra_javascript:
   - stylesheets/extra.js
