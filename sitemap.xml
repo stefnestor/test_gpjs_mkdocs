@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://stefnestor.github.io/test_gpjs_mkdocs/</loc>
+         <lastmod>2025-09-09</lastmod>
+    </url>
+    <url>
+         <loc>https://stefnestor.github.io/test_gpjs_mkdocs/triage/</loc>
+         <lastmod>2025-09-09</lastmod>
+    </url>
+    <url>
+         <loc>https://stefnestor.github.io/test_gpjs_mkdocs/triage/green/</loc>
+         <lastmod>2025-09-09</lastmod>
+    </url>
+    <url>
+         <loc>https://stefnestor.github.io/test_gpjs_mkdocs/triage/orange/</loc>
+         <lastmod>2025-09-09</lastmod>
+    </url>
+    <url>
+         <loc>https://stefnestor.github.io/test_gpjs_mkdocs/triage/red/</loc>
+         <lastmod>2025-09-09</lastmod>
+    </url>
+    <url>
+         <loc>https://stefnestor.github.io/test_gpjs_mkdocs/triage/yellow/</loc>
+         <lastmod>2025-09-09</lastmod>
+    </url>
+</urlset>
